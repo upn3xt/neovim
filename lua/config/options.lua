@@ -8,3 +8,8 @@ vim.cmd([[highlight EndOfBuffer guibg=NONE ctermbg=NONE]])
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
+vim.filetype.add({
+  extension = {
+    c3 = "c3",
+  },
+})
