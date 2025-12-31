@@ -3,7 +3,7 @@
 " ==============================
 
 " --- Keywords ---
-syntax keyword chronoKeyword fn var const if else while return pub int string char void use try catch as struct class module for attribute attributes constructor destroyer
+syntax keyword chronoKeyword fn var const if else while return pub int string char void use try catch as struct class module for attribute attributes constructor destroyer this
 highlight link chronoKeyword Keyword
 
 " --- Comments (// ...) ---
